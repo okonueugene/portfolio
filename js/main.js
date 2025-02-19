@@ -317,6 +317,9 @@ document.addEventListener("DOMContentLoaded", function () {
     const currentYear = new Date().getFullYear();
     const years = document.getElementById('years');
     years.innerText = currentYear - 2021;
+    //get current year and populate class="mil-current-year"
+    const currentYearElement = document.querySelector('.mil-current-year');
+    currentYearElement.innerText = currentYear;
 
 
 });
